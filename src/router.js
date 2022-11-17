@@ -4,7 +4,7 @@ import HomePage from '@/views/HomePage.vue'
 
 const routes = [
   { path: '/', name: 'Home', component: HomePage },
-  { path: '/other', name: 'Other', component: () => import('@/views/OtherPage.vue') },
+  { path: '/vehicles', name: 'Vehicle', component: () => import('@/views/VehiclesPage.vue') },
 ]
 
 const router = createRouter({

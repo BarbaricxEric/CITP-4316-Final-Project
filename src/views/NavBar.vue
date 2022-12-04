@@ -16,6 +16,7 @@ const title = ref("Castillo's Car Rental")
         <RouterLink :to="{ name: 'Vehicle' }" href="#" class="menu-vehicles">Vehicles</RouterLink>
         <RouterLink :to="{ name: 'Companies' }" href="#" class="menu-companies">Companies</RouterLink>
         <RouterLink :to="{ name: 'Settings' }" href="#" class="menu-settings">Settings</RouterLink>
+        <button href = "#" class="menu-logout" @click="logout">Logout</button>
   </div>
   </nav>
 
@@ -40,13 +41,17 @@ const title = ref("Castillo's Car Rental")
 .menu{
       @apply mx-auto flex font-thin text-xl;
       &-vehicles{
-        @apply px-4
+        @apply px-4 rounded-3xl hover:bg-red-400;
       }
       &-companies{
-        @apply px-4
+        @apply px-4 rounded-3xl hover:bg-red-400;
       }
       &-settings{
-        @apply px-4
+        @apply px-4 rounded-3xl hover:bg-red-400;
+      }
+
+      &-logout {
+        @apply px-4 pb-5 rounded-3xl hover:bg-red-400;
       }
 }
 

@@ -1,4 +1,5 @@
 <script setup>
+ import MainCompaniesCards from './MainCompaniesCards.vue';
  import MainSearch from './MainSearch.vue'
 </script>
 
@@ -6,6 +7,7 @@
     <div class="title">Companies</div>
     <div class="wrapper">
     <MainSearch />
+    <MainCompaniesCards />
     </div>
 </template>
 

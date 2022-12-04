@@ -1,5 +1,6 @@
 <script setup>
- import MainSearch from './MainSearch.vue'
+import MainSearch from './MainSearch.vue'
+import MainCards from './MainCards.vue'
 </script>
 
 <template>
@@ -7,6 +8,7 @@
     <div class = "title">Vehicles</div>
     <div class="wrapper">
     <MainSearch />
+    <MainCards />
     </div>
 </template>
 

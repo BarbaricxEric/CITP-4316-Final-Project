@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div class="brand"><img class="logo" src= "logo.svg" alt="logo.svg"/>
+    <div class="brand">
     </div>
     <div class = "welcome">Hello, and Welcome to Castillo's Car Rental!</div>
     <div class = "welcome-options">Where would you like to begin? Choose a button below:</div>

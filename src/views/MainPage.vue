@@ -3,14 +3,13 @@
 
 <template>
     <div class="brand">
-        <img class="logo" src="/public/logo.svg" alt="logo.svg"/>
+        <img class="logo" src="/public/pictures/logo.svg" alt="logo.svg"/>
     </div>
     <div class = "welcome">Hello, and Welcome to Castillo's Car Rental!</div>
-    <div class = "welcome-options">Where would you like to begin? Choose a button below:</div>
+    <div class = "welcome-options">Login To Begin:</div>
     <nav>
         <div class="menu">
-        <RouterLink :to="{ name: 'Vehicle' }" href="#" class="menu-vehicles">Vehicles</RouterLink>
-        <RouterLink :to="{ name: 'Companies' }" href="#" class="menu-companies">Companies</RouterLink>
+        <RouterLink :to="{name:'LoginPage'}" href="#" class="menu-login">Login</RouterLink>
         </div>
     </nav>
     
@@ -32,12 +31,9 @@
     }
 }
 .menu{
-    @apply flex mx-auto justify-center py-16 space-x-5;
-    &-vehicles{
-        @apply text-3xl outline rounded-md bg-red-900 px-7 text-white outline-black;
-    }
-    &-companies{
-        @apply text-3xl outline rounded-md bg-red-900 px-7 text-white outline-black;
-    }
+    @apply flex mx-auto justify-center py-8 space-x-5;
+     &-login{
+        @apply px-4 pb-2 rounded-2xl hover:bg-green-600 bg-green-500 text-3xl;
+      }
 }
 </style>

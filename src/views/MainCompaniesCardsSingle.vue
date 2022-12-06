@@ -2,7 +2,7 @@
     <div class="card">
         <div class = "card-image">
         </div>
-        <img class="logo" src="/public/pictures/jaguar.jpg" alt="logo.svg"/>
+        
         <div class="card-details">
             
             <p class="card-details-carname">Company Name</p>

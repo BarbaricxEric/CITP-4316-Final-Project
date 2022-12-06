@@ -1,7 +1,7 @@
 <template>
     <div class="card">
         <div class = "card-image">
-            Place Image Here
+          <img class="logo" src="/pictures/jaguar.jpg" alt="logo.svg"/>
         </div>
         <div class="card-details">
             <p class="card-details-caryear">Car Year</p>

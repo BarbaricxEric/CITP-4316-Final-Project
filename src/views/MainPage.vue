@@ -3,7 +3,7 @@
 
 <template>
     <div class="brand">
-        <img class="logo" src="/public/pictures/logo.svg" alt="logo.svg"/>
+        <img class="logo" src="/pictures/logo.svg" alt="logo.svg"/>
     </div>
     <div class = "welcome">Hello, and Welcome to Castillo's Car Rental!</div>
     <div class = "welcome-options">Login To Begin:</div>

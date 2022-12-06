@@ -18,7 +18,7 @@ const title = ref("Castillo's Car Rental")
   <div class="menu">
         
         <div v-if = "isAuthenticated">
-         <i class="pr-28">Welcome {{user.name}}</i>
+         <i class="pr-7">Welcome {{user?.email}}</i>
         <RouterLink :to="{ name: 'Vehicle' }" href="#" class="menu-vehicles">Vehicles</RouterLink>
         <RouterLink :to="{ name: 'Companies' }" href="#" class="menu-companies">Companies</RouterLink>
         <RouterLink :to="{ name: 'Settings' }" href="#" class="menu-settings">Settings</RouterLink>

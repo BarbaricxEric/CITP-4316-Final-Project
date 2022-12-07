@@ -16,7 +16,7 @@ const logUserIn = async () => {
           if (route.query.redirect) {
               router.push(router.query.redirect)
           } else {
-              router.push({ name: 'Home' })
+              router.push({ name: 'CarsPage' })
           }
     } else {
       logout()

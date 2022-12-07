@@ -9,7 +9,7 @@ const title = ref("Castillo's Car Rental")
 <template>
     <nav>
     <div class = wrapper>
-      <RouterLink :to="{ name: 'Home' }" class="business">
+      <RouterLink :to="{ name: 'Home' }" class="business" @click="logout">
       <span class = "business-title">{{ title }}</span>
        </RouterLink>
        </div>
@@ -19,7 +19,7 @@ const title = ref("Castillo's Car Rental")
         
         <div v-if = "isAuthenticated">
          <i class="pr-7">Welcome {{user?.email}}</i>
-        <RouterLink :to="{ name: 'Vehicle' }" href="#" class="menu-vehicles">Vehicles</RouterLink>
+        <RouterLink :to="{ name: 'CarsPage' }" href="#" class="menu-vehicles">Vehicles</RouterLink>
         <RouterLink :to="{ name: 'Companies' }" href="#" class="menu-companies">Companies</RouterLink>
         <RouterLink :to="{ name: 'Settings' }" href="#" class="menu-settings">Settings</RouterLink>
         <RouterLink :to="{ name: 'Home' }" href="#" class="menu-settings" @click="logout">Logout</RouterLink>
